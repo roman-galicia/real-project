@@ -131,6 +131,9 @@ main .grid-item p {
     }
 }
 
+document.querySelector('.clock');
+setInterval( () => clock.innerText = new Date ()).toLocalTimeString(), 1000);
+
 main .advantages h2 {
     text-align: center;
     margin: 10px auto;
