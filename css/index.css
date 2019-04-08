@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-h1, h2, div, p, nav, header, footer, main {
+h1, h2, div, p, nav, header, footer, main, section, aside {
     padding: 0;
     margin: 0;
 }
@@ -44,9 +44,9 @@ header nav {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-     padding: 0;
-     text-align: center;
-     font-family: sans-serif;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 header nav li {
